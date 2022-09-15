@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-color: rebeccapurple;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.contenido{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+#reader{
+    background-color: white;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+}
+main{
+    flex-grow: 3;
+    padding: 1rem;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: .5;
+    
+}
+.boton{
+    padding: 2rem;
+    color: white;
+}
+.boton:hover{
+    border: 1px solid white;
+}
+
+.deudor{
+    background-color: red;
+}
+.no-deudor{
+    background-color: rgb(88, 192, 88);
+}
